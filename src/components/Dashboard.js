@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom";
 const Dashboard = () => {
   return (
     <div className="flex bg-[#DDDDDD]">
-      <div className="basis-[12%] h-[100vh]">
+      <div className="basis-[12%] ">
         <Sidebar />
       </div>
       <div className="basis-[88%] border">
