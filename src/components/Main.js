@@ -60,41 +60,41 @@ const data = [
 const Main = () => {
   return (
     <>
-      <div className="grid grid-cols-4 pl-[50px] pr-[50px] gap-[30px] mt-[25px] pb-[15px]">
-        <div className="h-[100px] rounded-[8px] bg-[#DDEFE0] border-l-[4px] border-[#000000] cursor-pointer hover:shadow-lg transform hover:scale-[103%] transition duration-300 ease flex items-center justify-between">
+      <div className="grid grid-cols-4 bg-[#DDDDDD] pl-[50px] pr-[50px] gap-[30px] mt-[25px] pb-[15px]">
+        <div className="h-[100px] pl-6 pr-6 pt-11 pb-5 rounded-[20px] bg-[#DDEFE0] cursor-pointer flex items-center justify-between">
+          <div className="flex flex-col items-start justify-items-start justify-start">
+            <p className="text-[14px] font-lato">Total Revenues</p>
+            <h1 className="text-[24px] font-opensans font-bold">$2,129,430</h1>
+          </div>
+          <div className="flex flex-col justify-items-start top-0">
+            <RiCalendarEventLine />
+          </div>
+        </div>
+
+        <div className="h-[100px] pl-6 pr-6 pt-11 pb-5 rounded-[20px] bg-[#F4ECDD] cursor-pointer flex items-center justify-between">
           <div>
-            <p>Total Revenues</p>
-            <h1>$2,129,430</h1>
+            <p className="text-[14px] font-lato">Total Revenues</p>
+            <h1 className="text-[24px] font-opensans font-bold">$2,129,430</h1>
           </div>
           <div>
             <RiCalendarEventLine />
           </div>
         </div>
 
-        <div className="h-[100px] rounded-[8px] bg-[#F4ECDD] border-l-[4px] border-[#000000] cursor-pointer hover:shadow-lg transform hover:scale-[103%] transition duration-300 ease flex items-center justify-between">
+        <div className="h-[100px] pl-6 pr-6 pt-11 pb-5 rounded-[20px] bg-[#EFDADA] cursor-pointer flex items-center justify-between">
           <div>
-            <p>Total Revenues</p>
-            <h1>$2,129,430</h1>
+            <p className="text-[14px] font-lato">Total Revenues</p>
+            <h1 className="text-[24px] font-opensans font-bold">$2,129,430</h1>
           </div>
           <div>
             <RiCalendarEventLine />
           </div>
         </div>
 
-        <div className="h-[100px] rounded-[8px] bg-[#EFDADA] border-l-[4px] border-[#000000] cursor-pointer hover:shadow-lg transform hover:scale-[103%] transition duration-300 ease flex items-center justify-between">
+        <div className="h-[100px] pl-6 pr-6 pt-11 pb-5 rounded-[20px] bg-[#DEE0EF] cursor-pointer flex items-center justify-between">
           <div>
-            <p>Total Revenues</p>
-            <h1>$2,129,430</h1>
-          </div>
-          <div>
-            <RiCalendarEventLine />
-          </div>
-        </div>
-
-        <div className="h-[100px] rounded-[8px] bg-[#DEE0EF] border-l-[4px] border-[#000000] cursor-pointer hover:shadow-lg transform hover:scale-[103%] transition duration-300 ease flex items-center justify-between">
-          <div>
-            <p>Total Revenues</p>
-            <h1>$2,129,430</h1>
+            <p className="text-[14px] font-lato">Total Revenues</p>
+            <h1 className="text-[24px] font-opensans font-bold">$2,129,430</h1>
           </div>
           <div>
             <RiCalendarEventLine />

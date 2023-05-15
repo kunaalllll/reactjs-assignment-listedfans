@@ -5,11 +5,11 @@ import user_img from "../assets/user_img.png";
 
 const Dashboardview = () => {
   return (
-    <div className="flex items-center justify-between h-[78px] shadow-lg px-[25px]">
-      <div className="flex items-center rounded-[5px]">
+    <div className="flex items-center justify-end h-[78px] shadow-lg px-[25px]">
+      <div className="flex items-center bg-white p-2 rounded-[5px]">
         <input
           type="text"
-          className="outline-none pl-[13px] rounded-[5px] placeholder:text-[14px] "
+          className="outline-none pl-[13px] bg-white rounded-[5px] placeholder:text-[14px] "
           placeholder="Search..."
         />
         <div className="flex items-center justify-center cursor-pointer rounded-tr-[5px] rounded-br-[5px]">
