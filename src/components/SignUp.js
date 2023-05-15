@@ -1,6 +1,7 @@
 import React from "react";
 import { FcGoogle } from "react-icons/fc";
 import { AiFillApple } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
@@ -69,12 +70,15 @@ const SignUp = () => {
           >
             Forgot password?
           </a>
-          <button
-            type="submit"
-            className=" text-[#FFFFFF] font-montserrat font-bold text-base rounded-[10px] bg-[#000000] w-full pl-[112.58px] pr-[110.46px] pt-[9px] pb-[9.29px]"
-          >
-            Sign In
-          </button>
+
+          <Link to="main">
+            <button
+              type="submit"
+              className=" text-[#FFFFFF] font-montserrat font-bold text-base rounded-[10px] bg-[#000000] w-full pl-[112.58px] pr-[110.46px] pt-[9px] pb-[9.29px]"
+            >
+              Sign In
+            </button>
+          </Link>
         </div>
 
         <div>
